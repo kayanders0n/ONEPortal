@@ -1,0 +1,201 @@
+{
+  "users":[
+  {
+    "id":12832,
+    "name":"Matt Nielsen",
+    "tokens":["admin","management"],
+    "dashboard":["it", "production", "accounting", "starts" ,"estimating", "concrete", "framing", "purchasing", "super", "warehouse"],
+    "environment":"production"
+  },
+  {
+    "id":18464,
+    "name":"Alex Delgadillo",
+    "tokens":["admin"],
+    "dashboard":["it"],
+    "default_dashboard": "it",
+    "environment":"production"
+  },
+  {
+    "id":17452,
+    "name":"Michael Bonham",
+    "tokens":["admin","management"],
+    "dashboard":["it", "starts", "production", "accounting", "estimating", "concrete", "purchasing", "super", "warehouse"],
+    "environment":"development"
+  },
+  {
+    "id":18605,
+    "name":"Kayla Velastegui",
+    "tokens":["admin","management"],
+    "dashboard":["framing","estimating","starts","production"],
+    "environment":"production"
+  },
+
+  {
+    "id":10056,
+    "name":"Homer Quist",
+    "tokens":["admin","management"],
+    "dashboard":["production", "accounting", "it"],
+    "environment":"production"
+  },
+  {
+    "id":15105,
+    "name":"Ron Whitton Sr",
+    "tokens":["admin","management"],
+    "dashboard":["estimating"],
+    "environment":"production"
+  },
+  {
+    "id":10372,
+    "name":"Penny Calano",
+    "tokens":["management","payroll_admin"],
+    "environment":"production"
+  },
+  {
+    "id":15039,
+    "name":"Juan Fuentes",
+    "tokens":["estimator","catalog","management","admin_twwvr"],
+    "default_company": 21440,
+    "dashboard":["production","estimating"],
+    "environment":"production"
+  },
+  {
+    "id":12097,
+    "name":"Matt Beaudoin",
+    "tokens":["management","admin_twwvr"],
+    "default_company": 5633,
+    "dashboard":["production"],
+    "environment":"production"
+  },
+  {
+    "id":"16016",
+    "name":"Russ Foth",
+    "tokens":["management","admin_twwvr"],
+    "dashboard":["service"],
+    "default_company": 5633,
+    "environment":"production"
+  },
+  {
+    "id":16968,
+    "name":"Pete Keith",
+    "tokens":["estimator","catalog","warehouse"],
+    "default_company": 5633,
+    "dashboard":["estimating"],
+    "environment":"production"
+  },
+  {
+    "id":14764,
+    "name":"Ron Whitton Jr",
+    "tokens":["management","admin_twwvr"],
+    "default_company": 5633,
+    "dashboard":["production"],
+    "environment":"production"
+  },
+  {
+    "id":15436,
+    "name":"Jimmy James",
+    "tokens":["super","manager_twwvr"],
+    "dashboard":["super"],
+    "environment":"production"
+  },
+  {
+    "id":17009,
+    "name":"Michael Escobar",
+    "tokens":["super","manager_twwvr"],
+    "dashboard":["super"],
+    "environment":"production"
+  },
+  {
+    "id":15097,
+    "name":"Tony Boehme",
+    "tokens":["super","manager_twwvr"],
+    "dashboard":["super"],
+    "environment":"production"
+  },
+  {
+    "id":18549,
+    "name":"Hailey Schultz",
+    "tokens":["hyphen"],
+    "dashboard":["starts"],
+    "environment":"production"
+  },
+  {
+    "id":16476,
+    "name":"Sam Rosborough",
+    "tokens":["hyphen"],
+    "dashboard":["starts"],
+    "environment":"production"
+  },
+  {
+    "id":18430,
+    "name":"Marla Tolman",
+    "tokens":["hyphen"],
+    "dashboard":["starts"],
+    "environment":"production"
+  },
+  {
+    "id":18423,
+    "name":"Kiosk User",
+    "tokens":["kiosk_super"],
+    "dashboard":["kiosk_super"],
+    "environment":"production"
+  },
+  {
+    "id":"accounting",
+    "name":"Accounting Department",
+    "tokens":["accounting"],
+    "dashboard":["accounting"],
+    "environment":"production"
+  },
+  {
+    "id":"estimating",
+    "name":"Estimating Department",
+    "tokens":["estimator","catalog","admin_twwvr"],
+    "dashboard":["estimating","framing"],
+    "environment":"production"
+  },
+  {
+	"id":"super",
+	"name":"Production Super",
+	"tokens":["super"],
+	"dashboard":["super"],
+	"environment":"production"
+  },
+  {
+    "id":"service",
+    "name":"Service Department",
+    "tokens":["service"],
+    "dashboard":["service"],
+    "environment":"production"
+  },
+  {
+    "id":"warehouse",
+    "name":"Warehouse Department",
+    "tokens":["warehouse","catalog"],
+    "dashboard":["warehouse"],
+    "environment":"production"
+  },
+  {
+    "id":"fleet",
+    "name":"Fleet Department",
+    "tokens":["fleet"],
+    "dashboard":["fleet"],
+    "environment":"production"
+  },
+  {
+	"id":"it",
+	"name":"IT Department",
+	"tokens":["it"],
+	"dashboard":["it", "starts", "production"],
+	"environment":"production"
+  }
+  ],
+  "entities":[
+  {
+    "id":"all",
+    "name":"All Entity Records",
+    "tokens":["default"],
+    "dashboard":["default"],
+    "environment":"production"
+  }
+  ]
+}

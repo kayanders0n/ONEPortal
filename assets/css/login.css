@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* Custom CSS Document */
+
+:root {
+    --primary-color: #c4161c;
+    --primary-color-accent: #c4161c;
+    --primary-color-border: #ad171e;
+    --primary-color-text: #505050;
+    --background-color: #f6f6f6;
+    --border-color: #e2e2e2;
+}
+
+body {
+    padding-top: 30px;
+    background-color: #c9c9c9;
+}
+
+.login-wrapper {
+    padding: 30px 20px;
+    max-width: 460px;
+    margin: 0 auto;
+    color: #444;
+}
+
+.login-wrapper form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.login-logo {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.login-logo img {
+    width: 300px;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.2));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+
+}
+
+.form-control {
+    background: #f7f9fc;
+    border: 1px solid #dfe7f1;
+    border-radius: 2px;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 8px;
+    height: 42px;
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color-border);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.hover {
+    background-color: var(--primary-color-hover);
+    border-color: var(--primary-color-border);
+}
+
+.btn-primary:active {
+    transform: translateY(1px);
+}
+
+.forgot {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.forgot:hover, form .forgot:active {
+    opacity: 1;
+    text-decoration: none;
+}
+
+#auth-message,
+#response-message {
+    text-align: center;
+}

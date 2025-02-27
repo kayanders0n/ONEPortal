@@ -1,0 +1,10 @@
+app/logs/
+.idea/
+composer.phar
+.DS_Store
+phplog
+config.*.php
+.vscode/
+*-bak
+*.secret
+/.htaccess

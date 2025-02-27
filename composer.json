@@ -1,0 +1,21 @@
+{
+  "name": "whittoncompanies/thewhittonway",
+  "description": "The Whitton Way",
+  "license": "proprietary",
+  "authors": [],
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "psr/log": "^1.0",
+    "tmw/fpdm": "^2.9"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "": "app/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
